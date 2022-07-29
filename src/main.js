@@ -13,4 +13,5 @@ dom.remove(div1);
 const parentDiv = dom.create("<p> im new father of div");
 dom.wrap(div, parentDiv);
 dom.empty(parentDiv);
+
 console.log(dom.index(parentDiv));
